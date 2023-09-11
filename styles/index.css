@@ -40,14 +40,80 @@ body{
     margin: 10px 0;
     padding: 10px 20px;   
 }
-.main-nav__link:hover {
-    color: rgb(56 189 248);  
-}
 
 .main-nav__link a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+.main-nav__link a:hover{  
+    color: rgb(100, 96, 235);
+}
+
+.main__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+.main__container__text{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.main__container__text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(238, 226, 226);
+    margin-bottom: 1rem;
+} 
+.main__container__text span{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgb(238, 226, 226);
+    margin-bottom: 1rem;
+}
+
+.main__container__text img{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+.main__container__text__C1{
+    width: 100%;
+}
+.main__container__text__icon{
+
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.main__container__text__icon .icon{
+    width: 45px;
+    height: 45px;
+}
+
+.main__container__text__C3{
+    margin: auto;
+}
+
+
+.section__container{
+    margin-top: 25px;
+}
+
+.section__container_title{
+    font-size: 2.0rem;
+    font-weight: 700; 
+}
+
+.section__container_span{
+    color: #22d3ee;
+}
+
+
 footer{
     background-color: rgba(65, 55, 167, 0.16);
     position: absolute;
