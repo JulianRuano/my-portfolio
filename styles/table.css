@@ -1,0 +1,38 @@
+.main__container__text{
+    flex-wrap: nowrap;
+}
+.main__container__text__C2{
+    width: 65%;
+}
+
+.section__container_project{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: first baseline;
+}
+.section__container_project__C1{
+    width: 30%;
+    display: inline;
+    margin-left: 15px;
+    flex-basis: auto;
+}
+.section__container_project__C2{
+    width: 70%;
+    display: inline;
+}
+
+.contact{
+    flex-wrap: nowrap;
+}
+.contact section{
+    width: 55%;
+}
+.contact section p{
+    font-size: 1.8rem;
+
+}
+.contact_form{
+    width: 40%;
+    margin-left: 15px;
+}

@@ -14,26 +14,27 @@ body{
     min-height: 100vh;
 }
 .main-nav {   
-    height: auto;
+    height: 60px;
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(65, 55, 167, 0.16);
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.16);
     padding-right: 25px ;
-}
-.main-nav__img{
-    display: flex;
     align-items: center;
 }
-.main-nav img{  
+.main-nav__img{
+   margin-left: 40px; 
+}
+
+.main-nav__img img{
     width: 40px;
     height: 40px;
     border-radius: 50px;
 }
+
 .main-nav__list{ 
     margin-left: auto;
     text-align: end;  
-    padding: 10px;   
+      
 }
 .main-nav__link{  
     display: inline-block;  
@@ -86,7 +87,6 @@ body{
     width: 100%;
 }
 .main__container__text__icon{
-
     display: flex;
     flex-wrap:wrap;
 }
@@ -149,6 +149,8 @@ body{
     justify-content: center;
     margin-top: 15px;
 }
+
+
 .section__container_project__C2 h2{
     font-size: 1.8rem;
     font-weight: 700;
@@ -198,17 +200,28 @@ body{
     border-radius: 5px;
 }
 
-.section__container_project h2{
+.section__container_academic{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(30, 41, 59);
+    padding: 30px 15px 10px 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section__container_academic h2{
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 1.4rem;
 }
-.section__container_project h2 span{
+.section__container_academic h2 span{
     color: #22ee5f;
     font-size: 1.2rem;
 }
 
-.section__container_project p{
+.section__container_academic p{
     font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -287,8 +300,6 @@ body{
     width: 35px;
 }
 
-
-
 .contact_span{
     font-size: 2.5rem;
     display: block;  
@@ -306,8 +317,6 @@ body{
 @keyframes blink {
     50% { border-color: transparent }
 }
-
-
 
 
 .border{
