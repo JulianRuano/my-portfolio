@@ -1,0 +1,23 @@
+.main__container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main__container__text__C2{
+    width: 50%;
+}
+.main__container__text__C3{
+    width: 50%;
+}
+.main__container__text img{
+    width: 300px;
+    height: 300px;
+}
+
+.section__container_project__C1{
+    width: 20%;
+}
+.section__container_project__C2{
+    width: 80%;
+    padding-left: 0;
+}

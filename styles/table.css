@@ -12,14 +12,16 @@
     justify-content: first baseline;
 }
 .section__container_project__C1{
-    width: 30%;
+    width: 20%;
     display: inline;
     margin-left: 15px;
     flex-basis: auto;
 }
 .section__container_project__C2{
-    width: 70%;
+    width: 80%;
     display: inline;
+    padding-left: 30px;
+
 }
 
 .contact{
