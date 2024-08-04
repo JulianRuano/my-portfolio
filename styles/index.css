@@ -63,10 +63,6 @@ body{
     flex-wrap:wrap;
 }
 
-.main__container__text__C2{
-    text-align: justify;
-}
-
 .main__container__text h1{
     font-size: 3rem;
     font-weight: 700;
@@ -169,7 +165,6 @@ body{
     font-weight: 400;
     margin-bottom: 1rem;
     color: rgb(159, 159, 159);
-    text-align: justify;
 }
 .section__container_project__C2 ul{
     list-style-type: disc;
@@ -185,7 +180,6 @@ body{
     font-size: 1.6rem;
     font-weight: 400;
     color: rgb(159, 159, 159);
-    text-align: justify;
     background-color: rgb(30, 41, 59);
 }
 
@@ -304,8 +298,6 @@ body{
     font-weight: 400;
     margin-bottom: 1rem;
     color: rgb(159, 159, 159);
-    text-align: justify;
-
 }
 
 .contact_form{
