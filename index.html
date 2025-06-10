@@ -144,32 +144,56 @@
                 <div class="flex flex-wrap justify-center gap-8 text-lg">
 
                     <!-- GitHub -->
-                    <a href="https://github.com/tuusuario" target="_blank" class="flex items-center gap-3 hover:text-indigo-400 transition">
+                    <a href="https://github.com/JulianRuano" target="_blank" class="flex items-center gap-3 hover:text-indigo-400 transition">
                         <img src="./img/github.svg" alt="GitHub" class="w-6 h-6" />
                         GitHub
                     </a>
 
                     <!-- LinkedIn -->
-                    <a href="https://linkedin.com/in/tuusuario" target="_blank" class="flex items-center gap-3 hover:text-indigo-400 transition">
+                    <a href="https://www.linkedin.com/in/julianruanomajin-backend-java/" target="_blank" class="flex items-center gap-3 hover:text-indigo-400 transition">
                         <img src="./img/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
                         LinkedIn
                     </a>
 
                     <!-- WhatsApp -->
-                    <a href="https://wa.me/1234567890" target="_blank" class="flex items-center gap-3 hover:text-indigo-400 transition">
-                        <img src="./img/whatsapp.svg" alt="WhatsApp" class="w-6 h-6" />
-                        WhatsApp
-                    </a>
+                    <div class="relative group">
+                        <div class="flex items-center gap-3">
+                            <!-- Enlace a WhatsApp (ícono) -->
+                            <a href="https://wa.me/573135967550" target="_blank" class="hover:text-indigo-400 transition">
+                                <img src="./img/whatsapp.svg" alt="WhatsApp" class="w-6 h-6" />
+                            </a>
+
+                            <!-- Botón para copiar número -->
+                            <button onclick="copiarWhatsApp()" class="flex items-center gap-2 hover:text-indigo-400 transition focus:outline-none">
+                                <span id="whatsapp-text">+57 313 5967550</span>
+                                <svg id="icono-copiado-ws" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div id="mensaje-copiado-ws" class="absolute left-0 top-full mt-1 text-sm text-green-400 opacity-0 transition-opacity duration-300">
+                            ¡Número copiado!
+                        </div>
+                    </div>
+
 
                     <!-- Correo -->
                     <div class="relative group">
-                        <button onclick="copiarCorreo()" class="flex items-center gap-3 hover:text-indigo-400 transition">
-                            <img src="./img/gmail.svg" alt="Copiar correo" class="w-6 h-6" />
-                            <span id="correo-text">julianrmajin@gmail.com</span>
-                            <svg id="icono-copiado" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                            </svg>
-                        </button>
+                        <div class="flex items-center gap-3">
+                            <!-- Enlace mailto en el ícono -->
+                            <a href="mailto:julianrmajin@gmail.com" class="hover:text-indigo-400 transition">
+                                <img src="./img/gmail.svg" alt="Enviar correo" class="w-6 h-6" />
+                            </a>
+
+                            <!-- Botón para copiar el correo -->
+                            <button onclick="copiarCorreo()" class="flex items-center gap-2 hover:text-indigo-400 transition focus:outline-none">
+                                <span id="correo-text">julianrmajin@gmail.com</span>
+                                <svg id="icono-copiado" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400 opacity-0 transition-opacity duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                </svg>
+                            </button>
+                        </div>
 
                         <div id="mensaje-copiado" class="absolute left-0 top-full mt-1 text-sm text-green-400 opacity-0 transition-opacity duration-300">
                             ¡Copiado al portapapeles!
@@ -200,6 +224,21 @@
         }, 2000);
         });
     }
+    function copiarWhatsApp() {
+        const numero = '3135967550';
+        navigator.clipboard.writeText(numero).then(() => {
+            const icono = document.getElementById('icono-copiado-ws');
+            const mensaje = document.getElementById('mensaje-copiado-ws');
+            icono.classList.remove('opacity-0');
+            mensaje.classList.remove('opacity-0');
+
+            setTimeout(() => {
+                icono.classList.add('opacity-0');
+                mensaje.classList.add('opacity-0');
+            }, 2000);
+        });
+    }
+
     </script>
 </body>
 </html>
