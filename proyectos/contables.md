@@ -13,7 +13,7 @@ Implementé el sistema de autenticación y autorización utilizando Keycloak, as
 
 ### Catálogo de Cuentas:
 
-Diseñé y desarrollé el módulo del catálogo de cuentas, permitiendo el CRUD de cuentas contables. Implementé funcionalidades para obtener la estructura jerárquica del catálogo.
+Diseñé y desarrollé el módulo del catálogo de cuentas. Implementé funcionalidades para obtener la estructura jerárquica del catálogo.
 
 ### Gestión de Empresas:
 
