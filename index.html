@@ -46,7 +46,7 @@
                 <a href="#proyectos" class="bg-indigo-500 hover:bg-indigo-600 text-white px-5 py-2 rounded-xl shadow transition">
                     Ver proyectos
                 </a>
-                <a href="https://drive.google.com/file/d/10sW1-yVopCMdhXF7QbQl7KldE4Oq2hZe/view?usp=sharing" target="_blank" class="border border-indigo-400 text-indigo-300 px-5 py-2 rounded-xl hover:bg-indigo-500 hover:text-white transition">
+                <a href="https://drive.google.com/file/d/1sSrEXhGEH7KERGrszCLrCEo5sHJbe_v1/view?usp=sharing" target="_blank" class="border border-indigo-400 text-indigo-300 px-5 py-2 rounded-xl hover:bg-indigo-500 hover:text-white transition">
                     Descargar CV
                 </a>
                 </div>
@@ -61,8 +61,6 @@
             </h2>
 
             <div class="flex flex-col gap-6">
-                <!--Proyecto 1-->
-
                 <!-- Proyecto actual: destacado -->
                 <div class="bg-gradient-to-br from-indigo-700/40 to-slate-800 p-6 rounded-xl shadow-xl border-l-4 border-yellow-400 hover:shadow-yellow-400 transition-all relative">
                     <div class="flex justify-between items-center mb-2">
@@ -73,11 +71,11 @@
                         <span class="text-sm text-yellow-300 font-mono">Enero 2025 - Actualidad</span>
                     </div>
                     <ul class="text-gray-200 mb-4 list-disc list-inside space-y-1">
-                    <li>Diseño y coordinación de arquitecturas backend limpias y escalables.</li>
-                    <li>Aplicación de principios <strong>SOLID</strong>, <strong>DDD</strong> y patrones de diseño.</li>
-                    <li>Implementación de <strong>APIs RESTful</strong>, persistencia con <strong>JPA/PostgreSQL</strong>, y pruebas automatizadas.</li>
-                    <li>Integración con <strong>CI/CD pipelines</strong> junto a equipo <strong>DevOps</strong>.</li>
-                    <li>Toma de decisiones técnicas orientadas a la resolución eficiente de problemas.</li>
+                        <li>Diseño y coordinación de arquitecturas backend limpias y escalables.</li>
+                        <li>Aplicación de principios <strong>SOLID</strong>, <strong>DDD</strong> y patrones de diseño.</li>
+                        <li>Implementación de <strong>APIs RESTful</strong>, persistencia con <strong>JPA/PostgreSQL</strong>, y pruebas automatizadas.</li>
+                        <li>Integración con <strong>CI/CD pipelines</strong> junto a equipo <strong>DevOps</strong>.</li>
+                        <li>Toma de decisiones técnicas orientadas a la resolución eficiente de problemas.</li>
                     </ul>
                     <div class="flex flex-wrap gap-2 mt-2">
                         <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
@@ -98,7 +96,7 @@
                         y usa balanceo de carga. Por otro lado, se configura un contenedor NGINX con Docker Compose
                         para servir imágenes estáticas desde un volumen.
                      </p>
-                     <a href="https://github.com/Proyecto4" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
+                     <a href="https://github.com/JulianRuano/api-gateway" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
                      <!-- Tecnologías -->
                      <div class="flex flex-wrap gap-2 mt-2">
                          <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
@@ -115,14 +113,14 @@
                         <h3 class="text-xl font-semibold text-white">Oficina de Relaciones Interinstitucionales e Interacciones (ORRI)</h3>
                         <span class="text-sm text-indigo-300 font-mono">Agosto 2024 - Noviembre 2024</span>
                     </div>
-                    <p class="text-gray-300 mb-4">
-                        Participé activamente en el desarrollo del backend de una aplicación web para la (ORRI) de la Universidad del Cauca. 
-                        Esta aplicación tiene como objetivo facilitar los procesos de registro de intercambio estudiantil y la gestión de 
-                        convenios académicos. Utilicé Spring Boot aplicando principios SOLID y buenas prácticas de 
-                        programación, e implementé servicios REST bajo una arquitectura hexagonal para mejorar la mantenibilidad del sistema.
-                        También integré bases de datos relacional mediante JPA/Hibernate. El trabajo en equipo fue clave: coordiné tareas y 
-                        mantuve comunicación constante con los equipos de frontend y aseguramiento de calidad.
-                    </p>
+                    <ul class="text-gray-200 mb-4 list-disc list-inside space-y-1">
+                        <li>Desarrollo del <strong>backend</strong> para aplicación web de la <strong>Universidad del Cauca (ORRI)</strong>.</li>
+                        <li>Facilitación de procesos de <strong>intercambio estudiantil</strong> y gestión de <strong>convenios académicos</strong>.</li>
+                        <li>Implementación de servicios <strong>REST</strong> con <strong>Spring Boot</strong></li>
+                        <li>Diseño con <strong>arquitectura hexagonal</strong> para mejorar la mantenibilidad.</li>
+                        <li>Integración de base de datos relacional usando <strong>JPA/Hibernate</strong>.</li>
+                        <li>Coordinación técnica y comunicación constante con equipos de <strong>frontend</strong> y <strong>QA</strong>.</li>
+                    </ul>
                     <a href="https://github.com/Proyecto2ORII2024/P2-Backend-ORII" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
                     <!-- Tecnologías -->
                     <div class="flex flex-wrap gap-2 mt-2">
@@ -141,14 +139,18 @@
                         <span class="text-sm text-indigo-300 font-mono">Febrero 2024 - Junio 2024</span>
                     </div>
                     <p class="text-gray-300 mb-4">
-                        Desarrollé el módulo contable de la aplicación, enfocado en la gestión del catálogo de cuentas y administración de empresas,
-                        aplicando arquitectura hexagonal, principios SOLID y una estructura basada en microservicios. Además, configuré la integración 
-                        con el servicio de autenticación Keycloak. Participé en el análisis y documentación de requisitos a través de entrevistas,
-                        historias de usuario y prototipos en Figma. Apliqué buenas prácticas de desarrollo, control de versiones con Git, y
-                        configuré el entorno de desarrollo utilizando Docker Compose.
+                        <ul class="text-gray-200 mb-4 list-disc list-inside space-y-1">
+                            <li>Desarrollo del <strong>módulo contable</strong> para gestión de <strong>catálogo de cuentas</strong> y <strong>empresas</strong>.</li>
+                            <li>Aplicación de <strong>arquitectura hexagonal</strong>, principios <strong>SOLID</strong> y enfoque de <strong>microservicios</strong>.</li>
+                            <li>Integración con <strong>Keycloak</strong> para autenticación.</li>
+                            <li>Participación en <strong>análisis de requisitos</strong> mediante entrevistas, <strong>historias de usuario</strong> y <strong>prototipos en Figma</strong>.</li>
+                            <li>Uso de buenas prácticas, <strong>control de versiones con Git</strong> y configuración del entorno con <strong>Docker Compose</strong>.</li>
+                        </ul>
                     </p>
                     <div><a href="https://github.com/JulianRuano/my-portfolio/blob/main/proyectos/contables.md" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver Imagenes y Documentación →</a></div>
-                    <a href="http://contables.unicauca.edu.co/#/" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ir a la aplicación →</a>
+                    <a href="http://contables.unicauca.edu.co/#/" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">
+                        <span class="text-sm text-yellow-300 font-mono">Ir a la aplicación → </span>
+                    </a>
                     <!-- Tecnologías -->
                     <div class="flex flex-wrap gap-2 mt-2">
                         <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
@@ -160,14 +162,16 @@
                 <!--Proyecto 5-->
                 <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
                     <div class="flex justify-between items-center mb-2">
-                        <h3 class="text-xl font-semibold text-white">Open Market</h3>
+                        <h3 class="text-xl font-semibold text-white">Open Market 🇦🇷</h3>
                         <span class="text-sm text-indigo-300 font-mono">Marzo 2023 - Julio 2023</span>
                     </div>
                     <p class="text-gray-300 mb-4">
-                        Aplicación web desarrollada en colaboración con estudiantes de Argentina,
-                        como parte de una valiosa experiencia de trabajo en equipo. Desarrollada en Java utilizando 
-                        Spring Boot con una arquitectura basada en microservicios, incorpora autenticación 
-                        mediante JWT y permite a los usuarios comprar y vender productos en línea.
+                        <ul class="text-gray-200 mb-4 list-disc list-inside space-y-1">
+                        <li>Aplicación web colaborativa con estudiantes de <strong>Argentina 🇦🇷</strong>, destacando el trabajo en equipo.</li>
+                        <li>Desarrollada en <strong>Java</strong> con <strong>Spring Boot</strong> y arquitectura de <strong>microservicios</strong>.</li>
+                        <li>Implementación de <strong>autenticación JWT</strong> para gestión de sesiones segura.</li>
+                        <li>Funcionalidad de <strong>compra y venta de productos</strong> en línea.</li>
+                        </ul>
                     </p>
                     <a href="https://github.com/JulianRuano/OpenMarket_Argentina_Colombia" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
                     <!-- Tecnologías -->
