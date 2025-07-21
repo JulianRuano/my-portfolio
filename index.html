@@ -61,52 +61,58 @@
             </h2>
 
             <div class="flex flex-col gap-6">
-                
                 <!--Proyecto 1-->
-                <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
+
+                <!-- Proyecto actual: destacado -->
+                <div class="bg-gradient-to-br from-indigo-700/40 to-slate-800 p-6 rounded-xl shadow-xl border-l-4 border-yellow-400 hover:shadow-yellow-400 transition-all relative">
                     <div class="flex justify-between items-center mb-2">
-                        <h3 class="text-xl font-semibold text-white">Open Market</h3>
-                        <span class="text-sm text-indigo-300 font-mono">Marzo 2023 - Julio 2023</span>
+                        <h3 class="text-xl font-semibold text-white flex items-center gap-2">
+                            Líder Técnico Fullstack (Práctica Profesional)
+                            <span class="text-xs bg-yellow-400 text-slate-900 font-bold px-2 py-0.5 rounded-full animate-pulse">Actual</span>
+                        </h3>
+                        <span class="text-sm text-yellow-300 font-mono">Enero 2025 - Actualidad</span>
                     </div>
-                    <p class="text-gray-300 mb-4">
-                        Aplicación web desarrollada en colaboración con estudiantes de Argentina,
-                        como parte de una valiosa experiencia de trabajo en equipo. Desarrollada en Java utilizando 
-                        Spring Boot con una arquitectura basada en microservicios, incorpora autenticación 
-                        mediante JWT y permite a los usuarios comprar y vender productos en línea.
+                    <p class="text-gray-200 mb-4">
+                        Actualmente ejerzo como líder técnico en el desarrollo de soluciones backend y frontend.
+                        Mi responsabilidad principal es coordinar el diseño e implementación de arquitecturas limpias y escalables,
+                        garantizando buenas prácticas de desarrollo (SOLID, DRY, DDD, patrones de diseño) y estándares de calidad en el código.
+                        Superviso y participo activamente en el ciclo completo de desarrollo: definición de APIs RESTful,
+                        estructuración de componentes frontend (Angular), persistencia de datos con JPA y PostgreSQL, pruebas automatizadas,
+                        integración continua (CI/CD) y despliegue. Colaboro estrechamente con DevOps para mantener pipelines eficientes.
+                        Además, lidero la toma de decisiones técnicas, resolviendo problemas con enfoque práctico.
                     </p>
-                    <a href="https://github.com/JulianRuano/OpenMarket_Argentina_Colombia" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
-                    <!-- Tecnologías -->
+                    <!-- Tecnologías (si quieres agregar) -->
                     <div class="flex flex-wrap gap-2 mt-2">
                         <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
                         <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
-                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Data</span>
-                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Security</span>
-                        <span class="bg-purple-700/20 text-purple-300 text-xs font-medium px-2 py-1 rounded-full">JWT</span>
+                        <span class="bg-blue-700/20 text-blue-300 text-xs font-medium px-2 py-1 rounded-full">Angular</span>
+                        <span class="bg-cyan-700/20 text-cyan-300 text-xs font-medium px-2 py-1 rounded-full">CI/CD</span>
+                        <span class="bg-yellow-600/20 text-yellow-300 text-xs font-medium px-2 py-1 rounded-full">DevOps</span>
                     </div>
                 </div>
 
-                <!-- Proyecto 2-->
-                <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
-                    <div class="flex justify-between items-center mb-2">
-                        <h3 class="text-xl font-semibold text-white">Aplicación Contable (ContApp)</h3>
-                        <span class="text-sm text-indigo-300 font-mono">Febrero 2024 - Junio 2024</span>
-                    </div>
-                    <p class="text-gray-300 mb-4">
-                        Desarrollé el módulo contable de la aplicación, enfocado en la gestión del catálogo de cuentas y administración de empresas,
-                        aplicando arquitectura hexagonal, principios SOLID y una estructura basada en microservicios. Además, configuré la integración 
-                        con el servicio de autenticación Keycloak. Participé en el análisis y documentación de requisitos a través de entrevistas,
-                        historias de usuario y prototipos en Figma. Apliqué buenas prácticas de desarrollo, control de versiones con Git, y
-                        configuré el entorno de desarrollo utilizando Docker Compose.
-                    </p>
-                    <div><a href="https://github.com/JulianRuano/my-portfolio/blob/main/proyectos/contables.md" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver Imagenes y Documentación →</a></div>
-                    <a href="http://contables.unicauca.edu.co/#/" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ir a la aplicación →</a>
-                    <!-- Tecnologías -->
-                    <div class="flex flex-wrap gap-2 mt-2">
-                        <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
-                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
-                        <span class="bg-orange-700/20 text-orange-300 text-xs font-medium px-2 py-1 rounded-full">Oracle</span>
-                    </div>
-                </div>                
+                
+                <!--Proyecto 2-->
+                 <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
+                     <div class="flex justify-between items-center mb-2">
+                         <h3 class="text-xl font-semibold text-white">Api Gateway</h3>
+                         <span class="text-sm text-indigo-300 font-mono">Marzo 2024 - Junio 2024</span>
+                     </div>
+                     <p class="text-gray-300 mb-4">
+                        La API Gateway, hecha con Spring Cloud Gateway, centraliza las solicitudes hacia los microservicios 
+                        y usa balanceo de carga. Por otro lado, se configura un contenedor NGINX con Docker Compose
+                        para servir imágenes estáticas desde un volumen.
+                     </p>
+                     <a href="https://github.com/Proyecto4" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
+                     <!-- Tecnologías -->
+                     <div class="flex flex-wrap gap-2 mt-2">
+                         <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
+                         <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
+                         <span class="bg-blue-700/20 text-blue-300 text-xs font-medium px-2 py-1 rounded-full">Spring Cloud Gateway</span>
+                         <span class="bg-gray-700/20 text-gray-300 text-xs font-medium px-2 py-1 rounded-full">Docker</span>
+                        <span class="bg-gray-700/20 text-gray-300 text-xs font-medium px-2 py-1 rounded-full">NGINX</span>       
+                     </div>
+                 </div>
 
                 <!--Proyecto 3-->
                 <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
@@ -131,7 +137,53 @@
                     </div>
                 </div>
 
+            
 
+                <!-- Proyecto 4-->
+                <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-white">Aplicación Contable (ContApp)</h3>
+                        <span class="text-sm text-indigo-300 font-mono">Febrero 2024 - Junio 2024</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Desarrollé el módulo contable de la aplicación, enfocado en la gestión del catálogo de cuentas y administración de empresas,
+                        aplicando arquitectura hexagonal, principios SOLID y una estructura basada en microservicios. Además, configuré la integración 
+                        con el servicio de autenticación Keycloak. Participé en el análisis y documentación de requisitos a través de entrevistas,
+                        historias de usuario y prototipos en Figma. Apliqué buenas prácticas de desarrollo, control de versiones con Git, y
+                        configuré el entorno de desarrollo utilizando Docker Compose.
+                    </p>
+                    <div><a href="https://github.com/JulianRuano/my-portfolio/blob/main/proyectos/contables.md" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver Imagenes y Documentación →</a></div>
+                    <a href="http://contables.unicauca.edu.co/#/" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ir a la aplicación →</a>
+                    <!-- Tecnologías -->
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
+                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
+                        <span class="bg-orange-700/20 text-orange-300 text-xs font-medium px-2 py-1 rounded-full">Oracle</span>
+                    </div>
+                </div>      
+                
+                <!--Proyecto 5-->
+                <div class="bg-slate-800/70 p-6 rounded-xl shadow-lg border-l-4 border-indigo-400 hover:shadow-indigo-400 transition-all">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="text-xl font-semibold text-white">Open Market</h3>
+                        <span class="text-sm text-indigo-300 font-mono">Marzo 2023 - Julio 2023</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">
+                        Aplicación web desarrollada en colaboración con estudiantes de Argentina,
+                        como parte de una valiosa experiencia de trabajo en equipo. Desarrollada en Java utilizando 
+                        Spring Boot con una arquitectura basada en microservicios, incorpora autenticación 
+                        mediante JWT y permite a los usuarios comprar y vender productos en línea.
+                    </p>
+                    <a href="https://github.com/JulianRuano/OpenMarket_Argentina_Colombia" target="_blank" class="text-indigo-400 hover:underline text-sm mb-4 inline-block">Ver en GitHub →</a>
+                    <!-- Tecnologías -->
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="bg-red-800/20 text-red-300 text-xs font-medium px-2 py-1 rounded-full">Java</span>
+                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Boot</span>
+                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Data</span>
+                        <span class="bg-green-700/20 text-green-300 text-xs font-medium px-2 py-1 rounded-full">Spring Security</span>
+                        <span class="bg-purple-700/20 text-purple-300 text-xs font-medium px-2 py-1 rounded-full">JWT</span>
+                    </div>
+                </div>
 
             </div>
         </section>
